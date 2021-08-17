@@ -7,6 +7,24 @@ Accent Color (blue): #3f84e5;
 Accent Color (yellow): #f7b32b;
 */
 
+/*
+Type
+font-family: 'Montserrat', sans-serif; wght@300;400;700;900
+font-family: 'Lato', sans-serif; wght@700
+*/
+
 body {
   background-color: light-grey;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  font-family: 'Montserrat', sans-serif;
 }
