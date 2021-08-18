@@ -12,6 +12,9 @@ Type
 font-family: 'Montserrat', sans-serif; wght@300;400;700;900
 font-family: 'Lato', sans-serif; wght@700
 */
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #ffffff;
@@ -59,4 +62,9 @@ a.button {
   border-radius: 3px;
   border-bottom: 2px solid #994c30; /* width of the border, type, color */
   transition: 0.2s opacity;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
 }
