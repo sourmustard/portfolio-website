@@ -36,6 +36,7 @@ img {
   float: left;
 }
 
+/*This line of code is causing issues*/
 .row::after {
   content: "";
   clear: both;
@@ -231,6 +232,7 @@ Medium devices (640px and larger)
 
   .col-md-6 {
     width: 50%;
+    float: left;
   }
 
 }
