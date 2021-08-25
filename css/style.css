@@ -25,7 +25,7 @@ body {
 }
 
 main {
-  padding-top: 133px;
+  padding-top: 100px;
 }
 
 img {
@@ -34,14 +34,11 @@ img {
 
 [class*="col-"] {
   float: left;
+  padding:;
 }
 
-/*This line of code is causing issues*/
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+
+
 
 /*General type styles*/
 p {
@@ -212,7 +209,7 @@ Medium devices (640px and larger)
   }
 
   main {
-    padding-top: 99px;
+    padding-top: 76px;
   }
 
   p {
@@ -234,6 +231,12 @@ Medium devices (640px and larger)
     width: 50%;
     float: left;
   }
+
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 }
 
