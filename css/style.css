@@ -34,7 +34,7 @@ img {
 
 [class*="col-"] {
   float: left;
-  padding:;
+  padding:10px;
 }
 
 
@@ -133,15 +133,19 @@ nav {
 
 /*Work Styling: type styling on line 45*/
 a.button {
-  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #d64550;
-  color: #ffffff; /* needed to override the default link color */
-  font-family: 'Lato', sans-serif;
+  display: inline-block;
+  background-color: #ff7f50;
+  color: white;
   font-weight: 400;
+  text-decoration: none;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30; /* width of the border, type, color */
-  transition: 0.2s opacity;
+  border-bottom: 2px solid #994c30;
+  transition-duration: 0.2s;
+  transition-property: opacity;
+}
+.button:hover {
+  opacity: 0.8;
 }
 
 
@@ -246,7 +250,25 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
+  .col-lg-7 {
+    width: 58.33%;
+    float: left;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+    float: left;
+  }
+
+  .container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
 }
+
 
 
 
