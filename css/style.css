@@ -1,16 +1,15 @@
 /*
 Colors used:
-Primary Color (white): #ffffff;
-Secondary Color (black): #000000;
-Accent Color (red): #d64550;
-Accent Color (blue): #3f84e5;
-Accent Color (yellow): #f7b32b;
+Primary Color (Clutured): #F7F7F7;
+Accent Color (Cerulean Foreast): #6A8EAE;
+Accent Color (Rich Black FOGRA 39): #0A0908;
+Accent Color (Cadet): #5D737E;
 */
 
 /*
 Type
-font-family: 'Montserrat', sans-serif; wght@300;400;700;900
-font-family: 'Lato', sans-serif; wght@700
+font-family: 'Open Sans', sans-serif; weights: 400,700
+font-family: 'PT Serif', serif;
 */
 
 
@@ -21,7 +20,7 @@ font-family: 'Lato', sans-serif; wght@700
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #F7F7F7;
 }
 
 main {
@@ -40,24 +39,25 @@ img {
 
 
 
+
 /*General type styles*/
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 700;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
   line-height: normal;
 }
 
 
 ul {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: normal;
 }
@@ -70,7 +70,7 @@ ul {
 
 /* Layout styling */
 .container {
-  padding: 0 15px;
+  padding: 30px;
 }
 
 .row {
@@ -80,20 +80,30 @@ ul {
 
 
 /*Header Styling*/
+
 #hero h1 {
-  text-align: center; /* Centers text */
+  font-size: 28px;
+  text-align: center;
+  padding: 50px 90px 20px 80px;
+  color: 141414;
+  line-height: 1.6;
 }
 
 .logo {
+  color: 0A0A0A;
   max-width: 250px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  display:inline-block;
+  padding: 15px 0;
 }
 
 header {
   width: 100%;
-  background-color: #ffe4c4;
+  background-color: #F7F7F7;
   text-align: center;
   padding: 10px 0;
-  box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.50);
   position: fixed;
 }
 
@@ -111,9 +121,9 @@ nav > ul > li {
 
 nav > ul > li > a {
   padding: 0 15px;
-  text-transform: uppercase;
-  font-weight: 700;
-  color: #4a4a4a;
+  text-transform:;
+  font-weight: 400;
+  color: #141414;
   text-decoration: none;
 }
 
@@ -123,8 +133,8 @@ nav {
 }
 
 #hero {
-  background-color: #ffe4c4;
-  padding: 20px 0;
+  background-color: #F7F7F7;
+  padding: 30px 0;
   display: inline-block;
   width: 100%;
 }
@@ -148,6 +158,15 @@ a.button {
   opacity: 0.8;
 }
 
+#project_title {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+#title_description {
+  font-size: 20px;
+}
 
 
 /*footer Styling*/
@@ -192,16 +211,29 @@ a.email {
 }
 
 /*Project Page*/
-#project h1, h2, h3, h4 {
-  text-align: center;
-}
 
+
+
+
+/* ==============================
+small devices (480px and larger)
+================================= */
+@media only screen and (min-width: 480px) and (max-width: 639px) {
+  #hero h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 50px 80px 20px 50px;
+    color: 141414;
+    line-height: 1.6;
+  }
+}
 
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 640px) and (max-width: 1023px) {
+
   header {
     text-align: unset;
   }
@@ -265,6 +297,54 @@ Large devices (1024px or larger)
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  }
+
+  header {
+    text-align: unset;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  main {
+    padding-top: 76px;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  #hero span {
+    display: block;
+  }
+
+  #hero p {
+    text-align: center;
+  }
+
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  #hero h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 50px 150px 20px 150px;
+    color: 141414;
+    line-height: 1.6;
   }
 
 }
