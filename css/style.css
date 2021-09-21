@@ -89,6 +89,7 @@ ul {
   line-height: 1.6;
 }
 
+
 .logo {
   color: 0A0A0A;
   max-width: 250px;
@@ -134,7 +135,7 @@ nav {
 
 #hero {
   background-color: #F7F7F7;
-  padding: 30px 0;
+  padding: 20px 0 0 0;
   display: inline-block;
   width: 100%;
 }
@@ -144,13 +145,16 @@ nav {
 /*Work Styling: type styling on line 45*/
 a.button {
   display: inline-block;
-  background-color: #ff7f50;
+  background-color: #6A8EAE;
   color: white;
-  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
   text-decoration: none;
   padding: 10px;
+  margin: 0 0 0 15px;
   border-radius: 3px;
-  border-bottom: 2px solid #994c30;
+  border-bottom: 2px solid #6A8EAE;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
@@ -160,12 +164,44 @@ a.button {
 
 #project_title {
   text-align: left;
-  padding: 0;
+  padding: 0 0 0 15px;
   margin: 0;
+  font-family: 'PT Serif', serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #141414;
+  line-height: normal;
 }
 
 #title_description {
-  font-size: 20px;
+  font-family: 'open sans', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #141414;
+  padding: 0 0 0 15px;
+}
+
+#sub_title {
+  font-family: 'open sans', sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: #141414;
+  text-align: center;
+  padding: 0 0 0 15px;
+}
+
+#skills_tools li {
+  font-family: 'open sans', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #141414;
+  padding: 0 0 0 15px;
+}
+
+#work {
 }
 
 
@@ -183,31 +219,41 @@ a.button {
 }
 
 svg {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 a.email {
   color: #d64550;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
 }
 
 
 
 /*About Page*/
-#about h1 {
-  text-align: center;
+#profile {
+  max-width: 63%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#story h2 {
-  text-align: center;
+#profile_title {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  color: #141414;
+  line-height: normal;
 }
 
-#skills h2 {
-  text-align: center;
+#story p {
+  font-family: 'open sans', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #141414;
+  padding: 0 0 0 15px;
 }
 
 /*Project Page*/
