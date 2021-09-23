@@ -24,7 +24,7 @@ body {
 }
 
 main {
-  padding-top: 100px;
+  padding-top: 56px;
 }
 
 img {
@@ -36,8 +36,37 @@ img {
   padding:10px;
 }
 
+.navtoggle li:not(:last-child) {
+display: none;
+}
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
 
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 
 
 /*General type styles*/
@@ -97,15 +126,15 @@ ul {
   font-size: 20px;
   font-weight: 400;
   display:inline-block;
-  padding: 15px 0;
+  padding:0;
 }
 
 header {
   width: 100%;
   background-color: #F7F7F7;
-  text-align: center;
-  padding: 10px 0;
+  /*text-align: center;*/
   position: fixed;
+  padding: 10px 0 4px;
 }
 
 
@@ -114,10 +143,7 @@ header {
 nav > ul {
   list-style-type: none;
   padding: 0;
-}
-
-nav > ul > li {
-  display: inline-block;
+  margin: 0;
 }
 
 nav > ul > li > a {
@@ -128,10 +154,10 @@ nav > ul > li > a {
   text-decoration: none;
 }
 
-nav {
+/*nav {
   display: inline-block;
   width: 100%;
-}
+}*/
 
 #hero {
   background-color: #F7F7F7;
@@ -272,6 +298,11 @@ small devices (480px and larger)
     color: 141414;
     line-height: 1.6;
   }
+
+  nav > ul {
+  margin: 1em 0;
+}
+
 }
 
 
@@ -279,6 +310,18 @@ small devices (480px and larger)
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) and (max-width: 1023px) {
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+  display: none;
+  }
 
   header {
     text-align: unset;
@@ -328,6 +371,18 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+  display: none;
+  }
 
   .col-lg-7 {
     width: 58.33%;
@@ -402,4 +457,14 @@ Large devices (1024px or larger)
 X-large devices (1440px or larger)
 ================================= */
 @media only screen and (min-width: 1440px) {
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+  display: none;
+  }
+
+
 }
