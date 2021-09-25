@@ -33,7 +33,7 @@ img {
 
 [class*="col-"] {
   float: left;
-  padding:10px;
+  padding: 15px;
 }
 
 .navtoggle li:not(:last-child) {
@@ -110,13 +110,13 @@ ul {
 
 /*Header Styling*/
 
-#hero h1 {
-  font-size: 28px;
+/*#hero h1 {
+  font-size: 30px;
   text-align: center;
   padding: 50px 90px 20px 80px;
   color: 141414;
   line-height: 1.6;
-}
+}*/
 
 
 .logo {
@@ -127,6 +127,10 @@ ul {
   font-weight: 400;
   display:inline-block;
   padding:0;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
 
 header {
@@ -293,8 +297,8 @@ small devices (480px and larger)
 @media only screen and (min-width: 480px) and (max-width: 639px) {
   #hero h1 {
     font-size: 24px;
-    text-align: center;
-    padding: 50px 80px 20px 50px;
+    text-align: left;
+    padding: 40px 80px 20px 50px;
     color: 141414;
     line-height: 1.6;
   }
@@ -352,6 +356,15 @@ Medium devices (640px and larger)
     text-align: center;
   }
 
+  #hero h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 30px 100px 10px 100px;
+    margin-top: 50px;
+    color: 141414;
+    line-height: 1.5;
+  }
+
   .col-md-6 {
     width: 50%;
     float: left;
@@ -395,7 +408,7 @@ Large devices (1024px or larger)
   }
 
   .container {
-  max-width: 1200px;
+  max-width: 1220px;
   margin-left: auto;
   margin-right: auto;
   }
@@ -441,11 +454,12 @@ Large devices (1024px or larger)
 }
 
   #hero h1 {
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
     padding: 50px 150px 20px 150px;
+    margin-top: 50px;
     color: 141414;
-    line-height: 1.6;
+    line-height: 1.5;
   }
 
 }
