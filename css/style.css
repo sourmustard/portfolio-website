@@ -75,12 +75,14 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
+  color: #333333;
 }
 
 h1, h2, h3, h4 {
   font-family: 'PT Serif', serif;
   font-weight: 400;
   line-height: normal;
+  color: #333333;
 }
 
 
@@ -89,6 +91,7 @@ ul {
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
+  color: #333333;
 }
 
  a {
@@ -120,7 +123,7 @@ ul {
 
 
 .logo {
-  color: 0A0A0A;
+  color: #333333;
   max-width: 250px;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -154,7 +157,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform:;
   font-weight: 400;
-  color: #141414;
+  color: #0A0908;
   text-decoration: none;
 }
 
@@ -165,7 +168,7 @@ nav > ul > li > a {
 
 #hero {
   background-color: #F7F7F7;
-  padding: 20px 0 0 0;
+  padding: 25px 0 0 0;
   display: inline-block;
   width: 100%;
 }
@@ -178,16 +181,16 @@ a.button {
   background-color: #6A8EAE;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 400;
   text-decoration: none;
   padding: 10px;
   margin: 0 0 0 15px;
   border-radius: 3px;
-  border-bottom: 2px solid #6A8EAE;
   transition-duration: 0.2s;
   transition-property: opacity;
 }
+
 .button:hover {
   opacity: 0.8;
 }
@@ -199,7 +202,7 @@ a.button {
   font-family: 'PT Serif', serif;
   font-size: 24px;
   font-weight: 700;
-  color: #141414;
+  color: #333333;
   line-height: normal;
 }
 
@@ -208,8 +211,9 @@ a.button {
   font-size: 17px;
   font-weight: 400;
   line-height: 1.7;
-  color: #141414;
+  color: #333333;
   padding: 0 0 0 15px;
+  margin: 14px 0 10px 0;
 }
 
 #sub_title {
@@ -217,17 +221,8 @@ a.button {
   font-size: 17px;
   font-weight: 700;
   line-height: 1.7;
-  color: #141414;
+  color: #333333;
   text-align: center;
-  padding: 0 0 0 15px;
-}
-
-#skills_tools li {
-  font-family: 'open sans', sans-serif;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 1.7;
-  color: #141414;
   padding: 0 0 0 15px;
 }
 
@@ -236,58 +231,107 @@ a.button {
 
 
 /*footer Styling*/
+
+#contact {
+  background-color:;
+  margin-top: 30px;
+}
+
+
 #contact h2 {
   text-align: center;
+  color: #0A0908;
+  margin: 0;
+  font-size: 30px;
 }
 
 #contact p {
   text-align: center;
+  color: #333333;
+  margin: 0;
+  padding: 0;
 }
 
 #contact {
   text-align: center;
-}
-
-svg {
-  height: 30px;
-  width: 30px;
+  color: #333333;
 }
 
 a.email {
-  color: #d64550;
+  color: #6A8EAE;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: normal;
+}
+
+i {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#copyright {
+  font-size: 14px;
 }
 
 
 
 /*About Page*/
 #profile {
-  max-width: 63%;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 100%;
+  margin: 100px 100px 20px 100px;
 }
 
 #profile_title {
   font-family: 'PT Serif', serif;
   font-weight: 700;
-  color: #141414;
+  color: #0A0908;
   line-height: normal;
+  padding: 0 0 0 15px;
 }
 
 #story p {
   font-family: 'open sans', sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.7;
-  color: #141414;
+  color: #333333;
   padding: 0 0 0 15px;
 }
 
-/*Project Page*/
+#sub_title {
+  font-family: 'PT Serif', serif;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
+ul#skills_tools{
+  margin-top: 5px;
+  padding-left: 15px;;
+}
+
+#skills_tools li {
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: #333333;
+  padding:;
+  list-style-type: none;
+}
+
+div.#skills.container.col-lg-5 {
+  margin: 0;
+  padding: 0;
+}
+
+/*Project Page*/
+#project {
+  margin-left: 150px;
+  margin-right: 150px;
+}
 
 
 
@@ -298,8 +342,8 @@ small devices (480px and larger)
   #hero h1 {
     font-size: 24px;
     text-align: left;
-    padding: 40px 80px 20px 50px;
-    color: 141414;
+    padding: 40px 50px 0px 50px;
+    color: #0A0908;
     line-height: 1.6;
   }
 
@@ -361,7 +405,7 @@ Medium devices (640px and larger)
     text-align: center;
     padding: 30px 100px 10px 100px;
     margin-top: 50px;
-    color: 141414;
+    color: #0A0908;
     line-height: 1.5;
   }
 
@@ -458,7 +502,7 @@ Large devices (1024px or larger)
     text-align: center;
     padding: 50px 150px 20px 150px;
     margin-top: 50px;
-    color: 141414;
+    color: #0A0908;
     line-height: 1.5;
   }
 
