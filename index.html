@@ -1,47 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Jeffrey Niu">
-	  <meta name="description" content="Jeffrey Niu Portfolio">
-    <title>Jeffrey Niu UI/UX Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Serif&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/12883ca4f9.js" crossorigin="anonymous"></script>
-  </head>
 
-  <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Jeffrey Niu">
+  <meta name="description" content="Jeffrey Niu Portfolio">
+  <title>Jeffrey Niu UI/UX Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Serif&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/12883ca4f9.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
+</head>
 
-  <body>
-    <header>
-      <div class="container">
-        <div class="navtoggle" id="myNavtoggle">
-          <a href="#" class="logo">
-            <span>Jeffrey Niu</span>
-          </a>
+<body>
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="#" class="logo">
+          <span>Jeffrey Niu</span>
+        </a>
 
-          <nav>
-            <ul>
-              <li><a href="index.html">Work</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-            </ul>
-          </nav>
-        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
       </div>
-    </header>
+    </div>
+  </header>
 
   <main>
-<!--Hero Section-->
+    <!--Hero Section-->
     <div class="section_hero" id="hero">
       <div class="container">
         <div>
@@ -53,13 +50,13 @@
       </div>
     </div>
 
-<!--Work/Projects section-->
+    <!--Work/Projects section-->
     <div class="container" id="work">
       <div class="container">
         <!--<h2>My Work</h2>-->
 
-          <!--Project One-->
-          <!--image-->
+        <!--Project One-->
+        <!--image-->
         <div class="row">
           <div class="col-md-6 col-lg-7">
             <picture>
@@ -70,11 +67,11 @@
 
           <!--copy-->
           <div class="col-md-6 col-lg-5">
-            <h3 id="project_title">Ticked</h3>
-            <p id="title_description">Ticked is a mobile productivity application for college students.
-               As the UI designer for this student project I conducted research,
-               created the design, and created a prototype with Adobe XD,
-               Illustrator, Draw.io, and Prott.</p>
+            <h3 class="project_title">Ticked</h3>
+            <p class="title_description">Ticked is a mobile productivity application for college students.
+              As the UI designer for this student project I conducted research,
+              created the design, and created a prototype with Adobe XD,
+              Illustrator, Draw.io, and Prott.</p>
             <a href="ticked.html" class="button">Case Study</a>
           </div>
         </div>
@@ -82,91 +79,91 @@
         <!--Project Two-->
         <!--image-->
         <div class="row">
-        <div class="col-md-6 col-lg-7">
-          <picture>
-            <source srcset="img/neighborly/n_mobile.jpg" media="(max-width:767px)">
-            <img src="img/neighborly/n_desktop.jpg" alt="My Image">
-          </picture>
+          <div class="col-md-6 col-lg-7">
+            <picture>
+              <source srcset="img/neighborly/n_mobile.jpg" media="(max-width:767px)">
+              <img src="img/neighborly/n_desktop.jpg" alt="My Image">
+            </picture>
+          </div>
+
+          <!--copy-->
+          <div class="col-md-6 col-lg-5">
+            <h3 class="project_title">Neighborly</h3>
+            <p class="title_description">Neighborly is a volunteering native app for iOS and Material operating
+              systems. For this student project I filled both the UI and UX role by
+              doing user research, creating the UI design, prototyping, and improving
+              the design based on testing</p>
+            <a href="neighborly.html" class="button">Case Study</a>
+          </div>
         </div>
 
-        <!--copy-->
-        <div class="col-md-6 col-lg-5">
-          <h3 id="project_title">Neighborly</h3>
-          <p id="title_description">Neighborly is a volunteering native app for iOS and Material operating
-            systems. For this student project I filled both the UI and UX role by
-            doing user research, creating the UI design, prototyping, and improving
-            the design based on testing</p>
-          <a href="neighborly.html" class="button">Case Study</a>
+        <!--Project Three-->
+        <!--image-->
+        <div class="row">
+          <div class="col-md-6 col-lg-7">
+            <picture>
+              <source srcset="img/nextforest/nf_mobile.jpg" media="(max-width:767px)">
+              <img src="img/nextforest/nf_desktop.jpg" alt="My Image">
+            </picture>
+          </div>
+
+          <!--copy-->
+          <div class="col-md-6 col-lg-5">
+            <h3 class="project_title">Next Forest</h3>
+            <p class="title_description">NextForest is a responsive online ecommerce site I built for a student
+              project. I was the UI designer for this project and created a UI design
+              based on the client’s requirements of having a clean and modern design,
+              simple functionality, and a smart filtering system.</p>
+            <a href="nextforest.html" class="button">Case Study</a>
+          </div>
         </div>
-      </div>
 
-      <!--Project Three-->
-      <!--image-->
-      <div class="row">
-        <div class="col-md-6 col-lg-7">
-          <picture>
-            <source srcset="img/nextforest/nf_mobile.jpg" media="(max-width:767px)">
-            <img src="img/nextforest/nf_desktop.jpg" alt="My Image">
-          </picture>
+        <!--Project Four-->
+        <!--image-->
+        <div class="row">
+          <div class="col-md-6 col-lg-7">
+            <picture>
+              <source srcset="img/allergycookbook/ac_mobile.jpg" media="(max-width:767px)">
+              <img src="img/allergycookbook/ac_desktop.jpg" alt="My Image">
+            </picture>
+          </div>
+
+          <!--copy-->
+          <div class="col-md-6 col-lg-5">
+            <h3 class="project_title">Allergy Cookbook</h3>
+            <p class="title_description">Allergy Cookbook is a responsive cooking application that provides
+              recipes for users who have food allergies, sensitivities, and intolerances.
+              As the UI and UX designer for this student project I conducted user
+              interviews, created user personas, designed the UI for the responsive
+              web application, and did testing with the prototype to make sure the
+              application had a user-centric design approach.</p>
+            <a href="allergycookbook.html" class="button">Case Study</a>
+          </div>
         </div>
-
-        <!--copy-->
-        <div class="col-md-6 col-lg-5">
-          <h3 id="project_title">Next Forest</h3>
-          <p id="title_description">NextForest is a responsive online ecommerce site I built for a student
-            project. I was the UI designer for this project and created a UI design
-            based on the client’s requirements of having a clean and modern design,
-            simple functionality, and a smart filtering system.</p>
-          <a href="nextforest.html" class="button">Case Study</a>
-        </div>
-      </div>
-
-    <!--Project Four-->
-    <!--image-->
-    <div class="row">
-    <div class="col-md-6 col-lg-7">
-      <picture>
-        <source srcset="img/allergycookbook/ac_mobile.jpg" media="(max-width:767px)">
-        <img src="img/allergycookbook/ac_desktop.jpg" alt="My Image">
-      </picture>
-    </div>
-
-    <!--copy-->
-    <div class="col-md-6 col-lg-5">
-      <h3 id="project_title">Allergy Cookbook</h3>
-        <p id="title_description">Allergy Cookbook is a responsive cooking application that provides
-          recipes for users who have food allergies, sensitivities, and intolerances.
-          As the UI and UX designer for this student project I conducted user
-          interviews, created user personas, designed the UI for the responsive
-          web application, and did testing with the prototype to make sure the
-          application had a user-centric design approach.</p>
-         <a href="allergycookbook.html" class="button">Case Study</a>
-      </div>
-    </div>
 
       </div>
     </div>
   </main>
 
-    <footer class="container" id="contact">
+  <footer class="container" id="contact">
+    <div>
+      <h2>Get in Touch</h2>
+      <p id="contact_title">Let’s work on something together</p>
       <div>
-        <h2>Get in Touch</h2>
-        <p id="contact">Let’s work on something together</p>
-        <div>
-          <p>Email me at &nbsp;<a href="Jniu.design@gmail.com" class="email">Jniu.design@gmail.com</a></p>
-        </div>
-        <!--Social Media Layout and Placeholders-->
-        <div>
-          <a href="https://www.linkedin.com/in/jeffreycniu/" target="_blank">
-              <i class="fab fa-linkedin fa-lg"></i>
-          </a>
-          <a href="https://www.behance.net/jeffreyniu" target="_blank">
-            <i class="fab fa-behance-square fa-lg"></i>
-          </a>
-          <p id="copyright">&copy; 2021 Jeffrey Niu</p>
-        </div>
+        <p>Email me at &nbsp;<a href="Jniu.design@gmail.com" class="email">Jniu.design@gmail.com</a></p>
       </div>
-    </footer>
-  </body>
+      <!--Social Media Layout and Placeholders-->
+      <div>
+        <a href="https://www.linkedin.com/in/jeffreycniu/" target="_blank">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://www.behance.net/jeffreyniu" target="_blank">
+          <i class="fab fa-behance-square fa-lg"></i>
+        </a>
+        <p id="copyright">&copy; 2021 Jeffrey Niu</p>
+      </div>
+    </div>
+  </footer>
+</body>
 
 </html>
