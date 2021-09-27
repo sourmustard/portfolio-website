@@ -1,5 +1,5 @@
 /*
-Colors used:
+Colors used: 
 Primary Color (Clutured): #F7F7F7;
 Accent Color (Cerulean Foreast): #6A8EAE;
 Accent Color (Rich Black FOGRA 39): #0A0908;
@@ -155,7 +155,6 @@ nav > ul {
 
 nav > ul > li > a {
   padding: 0 15px;
-  text-transform:;
   font-weight: 400;
   color: #0A0908;
   text-decoration: none;
@@ -195,7 +194,7 @@ a.button {
   opacity: 0.8;
 }
 
-#project_title {
+.project_title {
   text-align: left;
   padding: 0 0 0 15px;
   margin: 0;
@@ -206,7 +205,7 @@ a.button {
   line-height: normal;
 }
 
-#title_description {
+.title_description {
   font-family: 'open sans', sans-serif;
   font-size: 17px;
   font-weight: 400;
@@ -233,7 +232,6 @@ a.button {
 /*footer Styling*/
 
 #contact {
-  background-color:;
   margin-top: 30px;
 }
 
@@ -299,7 +297,7 @@ i {
   padding: 0 0 0 15px;
 }
 
-#sub_title {
+.sub_title {
   font-family: 'PT Serif', serif;
   font-size: 22px;
   text-align: left;
@@ -307,25 +305,21 @@ i {
   margin-bottom: 0;
 }
 
-ul#skills_tools{
+ul.skills_tools{
   margin-top: 5px;
-  padding-left: 15px;;
+  padding-left: 15px;
 }
 
-#skills_tools li {
+.skills_tools li {
   font-family: 'open sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 2;
   color: #333333;
-  padding:;
   list-style-type: none;
 }
 
-div.#skills.container.col-lg-5 {
-  margin: 0;
-  padding: 0;
-}
+
 
 /*Project Page*/
 #project {
