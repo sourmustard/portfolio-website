@@ -1,5 +1,5 @@
 /*
-Colors used: 
+Colors used:
 Primary Color (Clutured): #F7F7F7;
 Accent Color (Cerulean Foreast): #6A8EAE;
 Accent Color (Rich Black FOGRA 39): #0A0908;
@@ -325,6 +325,45 @@ ul.skills_tools{
 #project {
   margin-left: 150px;
   margin-right: 150px;
+}
+
+.project_type {
+  font-family: 'open sans', sans-serif;
+  font-weight: 300;
+  line-height: normal;
+  color: #333333;
+  font-size: 20px;
+  text-align: left;
+  color: #0A0908;
+  line-height: 1.6;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.project_heading {
+  margin-top:50px;
+  margin-bottom: 0;
+}
+
+.process {
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  line-height: normal;
+  color: #333333;
+  font-size: 24px;
+  padding-top: 20px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.process_copy {
+  font-family: 'open sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #333333;
+  list-style-type: none;
+  margin-top: 5px;
 }
 
 
