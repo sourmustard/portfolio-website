@@ -72,7 +72,7 @@ display: none;
 /*General type styles*/
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   line-height: normal;
   color: #333333;
@@ -112,15 +112,6 @@ ul {
 
 
 /*Header Styling*/
-
-/*#hero h1 {
-  font-size: 30px;
-  text-align: center;
-  padding: 50px 90px 20px 80px;
-  color: 141414;
-  line-height: 1.6;
-}*/
-
 
 .logo {
   color: #333333;
@@ -212,7 +203,7 @@ a.button {
   line-height: 1.7;
   color: #333333;
   padding: 0 0 0 15px;
-  margin: 14px 0 10px 0;
+  margin: 7px 0 25px 0;
 }
 
 #sub_title {
@@ -223,9 +214,6 @@ a.button {
   color: #333333;
   text-align: center;
   padding: 0 0 0 15px;
-}
-
-#work {
 }
 
 
@@ -323,8 +311,8 @@ ul.skills_tools{
 
 /*Project Page*/
 #project {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .project_type {
@@ -332,7 +320,7 @@ ul.skills_tools{
   font-weight: 300;
   line-height: normal;
   color: #333333;
-  font-size: 20px;
+  font-size: 1.3em;
   text-align: left;
   color: #0A0908;
   line-height: 1.6;
@@ -366,6 +354,22 @@ ul.skills_tools{
   margin-top: 5px;
 }
 
+/* ==============================
+Extra small devices (320px and larger)
+================================= */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #hero h1 {
+    font-size: 1.2em;
+    text-align: left;
+    padding: 20px;
+    color: #0A0908;
+    line-height: 1.3;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
 
 
 /* ==============================
@@ -373,7 +377,7 @@ small devices (480px and larger)
 ================================= */
 @media only screen and (min-width: 480px) and (max-width: 639px) {
   #hero h1 {
-    font-size: 24px;
+    font-size: 1.5em;
     text-align: left;
     padding: 40px 50px 0px 50px;
     color: #0A0908;
@@ -383,6 +387,8 @@ small devices (480px and larger)
   nav > ul {
   margin: 1em 0;
 }
+
+
 
 }
 
