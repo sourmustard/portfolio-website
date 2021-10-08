@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Jeffrey Niu">
+  <meta name="description" content="Jeffrey Niu Portfolio">
+  <title>Ticked</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/12883ca4f9.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html" class="logo">
+          <span>Jeffrey Niu</span>
+        </a>
+
+        <nav>
+          <ul>
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main id="project">
+    <div class="container" id="overview">
+      <!--project overview-->
+      <div>
+        <h1 class="project_heading">Next Forest</h1>
+        <p class="project_type">This is a mobile productivity app for students between the ages of
+          16 to 24 who want to keep their study plans and to-do lists in one place
+          and manage them on the go. As the UI designer for this student project I
+          conducted research, created the design, and created a prototype with Adobe
+          XD, Illustrator, Draw.io, and Prott.</p>
+
+        <picture>
+          <source srcset="img/ticked/ticked_smalls.jpg" media="(max-width:767px)">
+          <img src="img/ticked/ticked_large.jpg" alt="My Image">
+        </picture>
+
+      </div>
+      <!--project process-->
+      <div>
+        <div id="reserach">
+          <h3 class="process">Research</h3>
+          <p class="process_copy">Analyzing existing apps provides insight into similar product problems
+            and issues. This allows me to properly evaluate which solutions would
+            work best and add any customizations or improvements for my project.
+            I compared two popular productivity apps and analyzed their strengths
+            and weaknesses.</p>
+
+            <picture>
+              <source srcset="img/ticked/treasearch_small.jpg" media="(max-width:767px)">
+              <img src="img/ticked/treasearch_large.jpg" alt="My Image">
+            </picture>
+        </div>
+        <div id="ideation">
+          <h3 class="process">Ideation</h3>
+          <p class="process_copy">After analyzing the top existing apps I decided the best approach for
+            my audience would be to create a simple to use application with minimal
+            but strong features. There should also be no onboarding process so the
+            app is ready to use after download. Also the app needs clear design
+            patterns so users don’t need to guess and learn how the app works.</p>
+          <picture>
+            <source srcset="img/ticked/tideation_small.jpg" media="(max-width:767px)">
+            <img src="img/ticked/tideation_large.jpg" alt="My Image">
+          </picture>
+        </div>
+        <div id="wireframe">
+          <h3 class="process">Wireframe</h3>
+          <p class="process_copy">The research allowed me to flush out the most important features for
+            the app and create a user flow diagram. The diagram helps with visualizing
+            each step users would need to take to accomplish their tasks and give
+            me a template for my low and mid fidelity wireframes</p>
+          <picture>
+            <source srcset="img/ticked/ticked_wireframe_small.jpg" media="(max-width:767px)">
+            <img src="img/ticked/ticked_wireframe_large.jpg" alt="My Image">
+          </picture>
+        </div>
+        <div id="design">
+          <h3 class="process">Design</h3>
+          <p class="process_copy">My style guide was built on the principles of minimalism with vibrant
+            accent colors. Because users are between the ages 16 - 24 I wanted to
+            make sure the style was simple, engaging, and modern.</p>
+          <picture>
+            <source srcset="img/ticked/ticked_design_small.jpg" media="(max-width:767px)">
+            <img src="img/ticked/ticked_design_large.jpg" alt="My Image">
+          </picture>
+        </div>
+        <div id="prototype">
+            <h3 class="process">Prototype</h3>
+            <p class="process_copy">Once I worked out the user flow, wireframes, and style guide I was
+              able to put it all together and create the final screens. These screens
+              were then prototyped, tested, and tweaked to create the final screens.</p>
+          <picture>
+            <source srcset="img/ticked/ticked_prototype_small.jpg" media="(max-width:767px)">
+            <img src="img/ticked/ticked_prototype_large.jpg" alt="My Image">
+          </picture>
+        </div>
+        <div id="Conclusion">
+          <h2 class="process">Conclusion</h2>
+          <p class="process_copy">I was able to accomplish designing the UI for the target audience by
+            creating a clean and modern design. The organic feel coupled with strong
+            accent colors really help make the design appealing and simple to read.</p>
+          <p class="process_copy">The user flow is simple and intuitive which allows students to start
+            using the app quickly with little to no learning curve. This elevates
+            the pain point of learning a new app's features after downloading.</p>
+          <p class="process_copy">Although I like this design I know that there are things that could
+            be better. I will likely revisit this project to make improvements in
+            the future.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container" id="contact">
+    <div>
+      <h2>Get in Touch</h2>
+      <p>Let’s work on something together!</p>
+      <!--email me link-->
+      <div>
+        <p>Email me at &nbsp;<a href="Jniu.design@gmail.com" class="email">Jniu.design@gmail.com</a></p>
+      </div>
+      <!--Social Media Layout and Placeholders-->
+      <div>
+        <a href="https://www.linkedin.com/in/jeffreycniu/" target="_blank">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://www.behance.net/jeffreyniu" target="_blank">
+          <i class="fab fa-behance-square fa-lg"></i>
+        </a>
+        <p>copyright Jeffrey Niu 2021</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
